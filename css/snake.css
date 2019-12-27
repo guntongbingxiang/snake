@@ -1,0 +1,76 @@
+#wrapper{
+    width: 600px;
+    height: 600px;
+    background-color: teal;
+    border: black solid 20px;
+    margin: 20px auto;
+    position: relative;
+}
+.startBtn{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    display: block;
+}
+.pauseBtn{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    display: none;
+}
+.startBtn button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 187px;
+    height: 57px;
+    border: none;
+    outline: none;
+    background-image: url(./../img/star.png);
+    background-size: cover;
+    margin-left: -93px;
+    margin-top: -28px;
+    display: block;
+    cursor: pointer;
+}
+.pauseBtn button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-image: url(./../img/pause.jpg);
+    background-size: cover;
+    margin-left: -25px;
+    margin-top: -25px;
+    cursor: pointer;
+}
+.snakeHead{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+}
+.snakeBody{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:greenyellow;
+}
+.food{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:red;
+}
